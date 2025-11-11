@@ -3,12 +3,12 @@
      <div>
          <span>
              <img src="assets/phone-solid.svg" width="18px">
-             18610652570
+             17710767657
          </span>
          ·
          <span>
              <img src="assets/envelope-solid.svg" width="18px">
-             jiewmurphy@163.com
+             jiewangeek@163.com
          </span>
          ·
          <span>
@@ -20,24 +20,23 @@
 
 ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息 
 
- - 女，1988 年
- - 求职意向：程序分析专家
+ - 性别：女
+ - 求职方向：编译/性能优化、程序分析
  - 意向工作地：北京
- - 工作经验：10 年
  - 现工作单位：华为
 
 ## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
 
-- 博士后，北大/阿里联合培养，计算机与理论，2018.12~2020.12
-- 博士/硕士，中国科学院大学/软件所，计算机软件与理论，2012.9~2018.6
+- 博士后，北京大学/阿里联合培养，计算机与理论，2018.12~2020.12
+- 博士/硕士，中国科学院软件所，计算机软件与理论，2012.9~2018.6
 - 学士，吉林大学，计算机科学与技术专业，GPA(前3%/370人)，2008.9~2012.6
-- 英语：CET4/6
+- 英语：CET-6
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作经历
 
-- **2022.5~今，华为，程序分析技术专家/19级，团队技术负责人/10+人**
+- **2022.5~今，华为，程序分析技术专家**
  
-- **2018.7~2022.5，蚂蚁集团，数据技术-分布式计算部门，技术专家/P7，部门程序分析能力负责人/6人**
+- **2018.7~2022.5，蚂蚁集团，数据技术-分布式计算部门，技术专家**
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 项目经历
 

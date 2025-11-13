@@ -44,7 +44,11 @@
 
   TODO: mirage, mpk, triton megakernel
   
-- **编译/AI性能优化 - NPU亲和的算子调优**
+- **编译/算子开发DSL - 面向NPU后端的triton编译**
+  
+  Triton是如今火热的算子开发DSL。由于NPU和GPU在硬件上存在巨大差异，在NPU上进行编译优化，
+   
+- **编译/AI性能优化 - 算子调优工具**
   
   构建NPU上类似cutlas的模板库，及基于模板进行autotuning
 

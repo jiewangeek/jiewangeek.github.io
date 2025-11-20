@@ -21,7 +21,7 @@
 ## <img src="assets/info-circle-solid.svg" width="30px"> 个人信息 
 
  - 性别：女
- - 求职方向：编译/性能优化、程序分析
+ - 求职方向：编译/性能优化、AI infra、程序分析
  - 意向工作地：北京
  - 现工作单位：华为
 

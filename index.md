@@ -58,11 +58,12 @@
 
   参考repocoder实现基于滑动窗口的迭代式RAG生成方案，提升C/java/rust等语言10%代码补全准确率。进一步提出通过大小模型搭配，降低RAG性能开销。【论文】
 
-- **AI/大模型应用 - 相似代码检索（2023）**
+- **AI/大模型应用 - 相似代码检索和HPC应用优化（2023）**
 
    *代码克隆，LLM, embedding, GNN, 子图匹配，代码属性图*
 
-  相似代码检索可应用在代码搜索、代码克隆等广泛的应用场景，当前大模型在信息检索方面取得重大进展，然而代码与自然语言存在巨大差别。当前embdding大模型方法存在一些问题。一方面，代码重命名、语句顺序、计算的括号展开结合律等变化都可能导致代码不同但语义相同，而embedding模型对此不敏感。另一方面，代码检索需要判断代码段A中是否包含代码段B，A和B的长度对embedding模型的匹配结果影响很大。本项目通过构建用于判断子图包含关系的GNN模型来实现。
+  相似代码检索可应用在代码搜索、代码克隆等广泛的应用场景，当前大模型在信息检索方面取得重大进展，然而代码检索与自然语言存在巨大差别。当前embdding大模型方法存在一些问题。一方面，代码重命名、语句顺序、计算的括号展开结合律等变化都可能导致代码不同但语义相同，而embedding模型对此不敏感。另一方面，代码检索需要判断代码段A中是否包含代码段B，A和B的长度对embedding模型的匹配结果影响很大。
+  -- 本项目通过构建用于判断子图包含关系的GNN模型来实现。
   
 
 - **程序分析/符号执行 - C语言内存缺陷检查（2023）**
@@ -148,11 +149,13 @@
 
 ## 论文列表
 <a href="https://scholar.google.com/citations?user=YTeQmzEAAAAJ&hl=en">Google scholar</a>
+- Wenrui Zhang, Tiehang Fu, Ting Yuan, Ge Zhang, Dong Chen, <b>Jie Wang*</b>. <i>A Lightweight Framework for Adaptive Retrieval In Code Completion With Critique Model</i>.
+- Dong Chen, Shaoxin Lin, Muhan Zeng, Daoguang Zan, Jian-Gang Wang, Anton Cheshkov, Jun Sun, Hao Yu, Guoliang Dong, Artem Aliev, <b>Jie Wang</b>, et.al,. <i>Coder: Issue resolving with multi-agent and task graphs</i>.
 - <b>Jie Wang</b>, et.al,. <i>Combating the Problem of Indirection in Distributed Dynamic Dataflow</i> (ant group, technique report).
 - <b>Jie Wang</b>, Yunguang Wu, Gang Zhou, Yiming Yu, Zhenyu Guo, Yingfei Xiong. <i>Scaling static taint analysis to
 industrial SOA applications: a case study at Alibaba</i> (FSE2020, CCFA).
 - Xiaoning Chang, Wensheng Dou, Yu Gao, <b>Jie Wang</b>, Jun Wei, Tao Huang. <i>Detecting atomicity violations for eventdriven
-Node.js applications</i> (ICSE2019, CCFA)
+Node.js applications</i> (ICSE2019, CCFA).
 - <b>Jie Wang</b>, Wensheng Dou, Yu Gao, Chushu Gao, Feng Qin, Jun Wei. <i>A Comprehensive Study on Real World
 Concurrency Bugs in Node.js</i>. In proceedings of the 32nd IEEE/ACM International Conference on Automated
 Software Engineering (ASE 2017, CCF A).

@@ -3,12 +3,12 @@
      <div>
          <span>
              <img src="assets/phone-solid.svg" width="18px">
-             17710767657
+             微信：jiewang7657
          </span>
          ·
          <span>
              <img src="assets/envelope-solid.svg" width="18px">
-             jiewangeek@163.com
+             邮箱：jiewangeek@163.com
          </span>
          ·
          <span>
@@ -124,13 +124,14 @@
 
 ## 论文列表
 <a href="https://scholar.google.com/citations?user=YTeQmzEAAAAJ&hl=en">Google scholar</a>
+- C Wang, T Yu, C Xie, <b>J Wang</b>, D Chen, W Zhang, Y Shi, X Gu, B Shen. <i>EVOC2RUST: A Skeleton-guided Framework for Project-Level C-to-Rust Translation</i> (ICSE SEIP2026, CCF A).
 - Wenrui Zhang, Tiehang Fu, Ting Yuan, Ge Zhang, Dong Chen, <b>Jie Wang*</b>. <i>A Lightweight Framework for Adaptive Retrieval In Code Completion With Critique Model</i>.
 - Dong Chen, Shaoxin Lin, Muhan Zeng, Daoguang Zan, Jian-Gang Wang, Anton Cheshkov, Jun Sun, Hao Yu, Guoliang Dong, Artem Aliev, <b>Jie Wang</b>, et.al,. <i>Coder: Issue resolving with multi-agent and task graphs</i>.
 - <b>Jie Wang</b>, et.al,. <i>Combating the Problem of Indirection in Distributed Dynamic Dataflow</i> (ant group, technique report).
 - <b>Jie Wang</b>, Yunguang Wu, Gang Zhou, Yiming Yu, Zhenyu Guo, Yingfei Xiong. <i>Scaling static taint analysis to
-industrial SOA applications: a case study at Alibaba</i> (FSE2020, CCFA).
+industrial SOA applications: a case study at Alibaba</i> (FSE2020, CCF A).
 - Xiaoning Chang, Wensheng Dou, Yu Gao, <b>Jie Wang</b>, Jun Wei, Tao Huang. <i>Detecting atomicity violations for eventdriven
-Node.js applications</i> (ICSE2019, CCFA).
+Node.js applications</i> (ICSE2019, CCF A).
 - <b>Jie Wang</b>, Wensheng Dou, Yu Gao, Chushu Gao, Feng Qin, Jun Wei. <i>A Comprehensive Study on Real World
 Concurrency Bugs in Node.js</i>. In proceedings of the 32nd IEEE/ACM International Conference on Automated
 Software Engineering (ASE 2017, CCF A).

@@ -140,6 +140,7 @@
 - 92071704, A User Intent-Driven Adaptive Local Retrieval Method
 - 92085513, Interactive Code Translation Technology Based on Self-Evolving Learning
 - 92098398, An Operator Parameter Tuning Technology for Dynamic Shapes
+- 202010938928.x, An Efficient and Robust Taint Analysis Method
 
 ## Honors & Awards
 

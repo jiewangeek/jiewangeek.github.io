@@ -42,7 +42,7 @@
   
 - **Compilation/Operator Development DSL - DSL & Compilation Optimization [In Progress]**
   
-  1. Adaptation and hardware-affinity optimization for DSL ecosystems like Triton, Gluon, and Tilelang. Tasks include: tile op extension, automatic pipelining, synchronization insertion, etc.
+  1. Adaptation and hardware-affinity optimization for DSL ecosystems like Triton, Gluon, and Tilelang. Tasks include: triton-like tile op design for domain-specific hardware, automatic pipelining, synchronization insertion, etc.
   2. Computation-Communication Overlap: Development and optimization of computation-communication overlap operators.
    
 - **Compilation/AI Performance Optimization - Operator Tuning Tools**

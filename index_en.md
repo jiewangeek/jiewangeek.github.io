@@ -133,6 +133,14 @@
 - **Jie Wang**, et al. *Fast Reproducing Web Application Errors* (ISSRE 2015, CCF B).
 - **Jie Wang**, et al. *Context-Based Event Trace Reduction in Client-Side JavaScript Applications* (ICST 2018, CCF C).
 
+## Patents
+
+- 92068286, Adaptive Iterative Retrieval-Augmented Code Generation Based on Uncertainty Estimation
+- 92069613, GNN-based Semantic Similarity Code Filtering Technology
+- 92071704, A User Intent-Driven Adaptive Local Retrieval Method
+- 92085513, Interactive Code Translation Technology Based on Self-Evolving Learning
+- 92098398, An Operator Parameter Tuning Technology for Dynamic Shapes
+
 ## Honors & Awards
 
 - 2024, Inner Source Gold Badge Project

@@ -21,36 +21,35 @@
 ## <img src="assets/info-circle-solid.svg" width="30px"> Personal Information 
 
  - Gender: Female
- - Career Focus: Compilation/Performance Optimization, AI Infra, Program Analysis
+ - Career Focus: AI compiler, triton-like DSL, AI Infra, Program Analysis
  - Preferred Location: Beijing
  - Current Employer: Huawei
 
 ## <img src="assets/graduation-cap-solid.svg" width="30px"> Education
 
-- **Postdoctorate**, Peking University / Alibaba Joint Program, Computer Software and Theory, 2018.12 ~ 2020.12
+- **Postdoctorate**, Peking University / Alibaba, Computer Software and Theory, 2018.12 ~ 2020.12
 - **Ph.D. / Master**, Institute of Software, Chinese Academy of Sciences (ISCAS), Computer Software and Theory, 2012.9 ~ 2018.6
 - **Bachelor**, Jilin University, Computer Science and Technology, GPA (Top 3% / 370 students), 2008.9 ~ 2012.6
-- **English**: CET-6
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> Work Experience
 
-- **2022.5 ~ Present, Huawei, Technical Expert in Program Analysis**
+- **2022.5 ~ Present, Huawei, Technical Expert in AI Compiler and Program Analysis**
  
 - **2018.7 ~ 2022.5, Ant Group, Data Technology - Distributed Computing Dept, Technical Expert**
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> Project Experience
   
-- **Compilation/Operator Development DSL - DSL & Compilation Optimization [In Progress]**
+- **Tile-level / Triton-like kernel programming DSL [In Progress]**
   
-  1. Adaptation and hardware-affinity optimization for DSL ecosystems like Triton, Gluon, and Tilelang. Tasks include: triton-like tile op design for domain-specific hardware, automatic pipelining, synchronization insertion, etc.
-  2. Computation-Communication Overlap: Development and optimization of computation-communication overlap operators.
+  Provide compiler backend for specific hardware to triton-like DSL: (1) Targets at Triton and Tilelang language, we extend the DSL for writing more performant kernels (add controling about data movement, synchronizations, and data layout). (2) We enhance the backend compiler on prefetching, pipelining, synchronization insertion and so on for specific hardware.
    
-- **Compilation/AI Performance Optimization - Operator Tuning Tools**
+- **Kernel Tuning & AI Compiler**
   
   With the explosion of Large Language Models (LLMs), hardware requirements have escalated, making software-level operator acceleration critical. Operator optimization involves iterative adjustments of tiling parameters, pipeline scheduling, data layout, computation order, and overlap, often taking weeks or even months. We conduct automated tuning in the following areas:
 
   1. **Parameter Tuning**: Given specific parameters, automatically search for the optimal combination. Methods include Genetic Algorithm (GA) search and offline performance modeling. Achieved 30%+ performance gains for 10+ typical commercial operators.
-  2. **Compiler-based Deep Tuning**: Explored two methods for migration to new hardware: (1) **Micro-kernel (DietCode)**: Kernel computation is typically split into blocks for concurrent execution. This method defines a universal block size space; performance modeling includes $f_m$ (predicting single block performance, shape-independent) and $f_{adapt}$ (linear combination of blocks for kernel performance, shape-dependent). This reduces tuning time via shared universal blocks. (2) **Super-optimization (Mirage)**: Proposed a multi-layer graph abstraction (Kernel, Block, Thread layers) for CUDA programming to automatically search for equivalent logic, fusion, and tiling parameters.
+
+  2. **Compiler-based Deep Tuning and kernel generation**: We explore two methods in the wild and migrate them to specific hardware: (1) **Micro-kernel (DietCode)**: Dynamic shape makes the tuning space very large, while dietCode propose an efficient tuning solution. One obeservation is that whether a tile task can fully occupy a SM depends on the hardware architecher (model as a function about the arch), not relavent to the input tensor shape. Whether N tiles can fully occupy the whole device is shape dependent (model as linear regression). (2) **Super-optimization (Mirage)**: It is a multi-layer graph abstraction (Kernel, Block, Thread layers) for CUDA programming to automatically search for equivalent logic, fusion, and tiling parameters.
 
 - **AI/LLM Application - Sliding Window RAG for Code Completion**
   
